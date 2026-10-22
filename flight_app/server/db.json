@@ -1,0 +1,62 @@
+{
+  "flights": [
+    {
+      "id": 1,
+      "flightCode": "AI-202",
+      "flightName": "Air India Express",
+      "make": "Boeing 737",
+      "capacity": 180,
+      "source": "Bengaluru (BLR)",
+      "destination": "Delhi (DEL)",
+      "date": "2026-10-25",
+      "basePrice": 4500,
+      "active": true
+    },
+    {
+      "id": 2,
+      "flightCode": "6E-504",
+      "flightName": "IndiGo Direct",
+      "make": "Airbus A320",
+      "capacity": 220,
+      "source": "Bengaluru (BLR)",
+      "destination": "Mumbai (BOM)",
+      "date": "2026-10-26",
+      "basePrice": 3800,
+      "active": true
+    },
+    {
+      "id": 3,
+      "flightCode": "SG-108",
+      "flightName": "SpiceJet Air",
+      "make": "Boeing 737",
+      "capacity": 150,
+      "source": "Delhi (DEL)",
+      "destination": "Bengaluru (BLR)",
+      "date": "2026-10-27",
+      "basePrice": 4100,
+      "active": false
+    }
+  ],
+  "reservations": [
+    {
+      "id": "RES-1001",
+      "flightId": 1,
+      "passengerName": "Harshith R",
+      "email": "harshith@example.com",
+      "seatCategory": "Economy",
+      "seats": 2,
+      "totalFare": 9000,
+      "status": "CONFIRMED",
+      "bookingDate": "2026-10-22"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Harshith R",
+      "email": "harshith@example.com",
+      "phone": "9876543210",
+      "memberTier": "Gold"
+    }
+  ]
+}
